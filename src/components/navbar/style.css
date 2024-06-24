@@ -1,0 +1,47 @@
+.navbar{
+    min-height: 5vh;
+    width: 100vw;
+}
+
+.nav-container{
+    display: flex;
+    min-height: 5vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    margin: 0 1.5vw;
+}
+
+.nav-logo-text{
+    font-size: 1vw;
+}
+
+.nav-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-link{
+    margin: 0 1.2vw;
+    font-size: 1vw;
+}
+
+.icons{
+    width: 3vw;
+    align-items: center;
+}
+
+.material-symbols-outlined{
+    font-size: 1vw;
+    width: 3vw;
+}

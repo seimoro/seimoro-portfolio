@@ -1,0 +1,52 @@
+
+
+.homepage{
+    width: 100%;
+
+}
+
+.homepage-header-container{
+    position: relative;
+    background-color: purple;
+    display: flex;
+}
+
+.homepage-header-container h1{
+    font-size: 2.5vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.logOutBtn{
+    width: 8vw;
+    height: 4vh;
+    font-size: 1.5vw;
+    text-align: center;
+    color: var(--white);
+    top: 2vh;
+    right: 4vw;
+    border: .1vw solid var(--gray-light);
+    border-radius: .8vw;
+    background: var(--dark-bg);
+}
+
+.homepage-container{
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 980px){
+    .homepage-header-container h1{
+        font-size: 5vw;
+    }
+    .logOutBtn{
+        font-size: 3vw;
+        width: 15vw;
+        height: 5vw;
+    }
+}

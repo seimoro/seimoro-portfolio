@@ -1,0 +1,44 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap');
+:root{
+  --black: #0f0f0f;
+  --white: #ffffff;
+  --dark-bg: #1f1f1f;
+  --gray-light: #a1a1a1;
+}
+
+body, html{
+  width: 100vw;
+  height: 100vh;
+  background: var(--dark-bg);
+  overflow-x: hidden;
+  font-family: "Roboto", monospace;
+  color: var(--white);
+}
+
+body.dark{
+  background: var(--dark-bg);
+}
+
+main{
+  width: 100vw;
+}
+
+.container{
+  margin: 1vh 8vw;
+  
+  border-radius: .8vw;
+  padding: 1vh 3vw;
+  background: var(--black);
+}
+
+img{
+  pointer-events: none;
+}
+
+
+@media( max-width: 980px){
+  .container{
+    margin: .5vh 4vw;
+  }
+}
